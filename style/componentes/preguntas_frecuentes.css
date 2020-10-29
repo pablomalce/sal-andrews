@@ -1,0 +1,23 @@
+.btn-link{
+  font-family: 'Oswald', sans-serif !important;
+  font-weight: 500 !important;
+  color: #007940!important;
+  text-decoration: none;
+  
+}
+.card-header{
+  border-bottom: solid 1.5px #007940!important ;
+}
+
+.card-body{
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 200!important;
+  background-color: #F7F7F7;
+  border-bottom: solid 1px #F7F7F7 !important;
+  
+}
+
+.card{
+  margin: 1em;
+}
+
