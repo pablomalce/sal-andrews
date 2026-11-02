@@ -4,11 +4,11 @@ A static, Spanish-language brand website for Sal Andrews, an effervescent antaci
 
 ## Context
 
-The code was committed in a single commit dated October 2020 and pushed to GitHub in February 2021. It is an early front-end build from before Vulkan Studios. The repository does not record who commissioned it or whether this exact version went live; the content is written as a production brand site (GSK legal footer, a GSK promotional material code, links to Ecuadorian pharmacy chains).
+The code was committed in a single commit dated October 2020 and pushed to GitHub in February 2021. The repository does not record who commissioned it or whether this exact version went live; the content is written as a production brand site (GSK legal footer, a GSK promotional material code, links to Ecuadorian pharmacy chains).
 
 ## What it does
 
-Seven hand-written HTML pages sharing one navbar and footer:
+Seven hand-written HTML pages. Six share one navbar and all seven share one footer:
 
 - `index.html`: home with the hero banner and links to the FAQ and "where to buy" pages
 - `productos.html`: product benefits, flavours and pack sizes
@@ -16,11 +16,11 @@ Seven hand-written HTML pages sharing one navbar and footer:
 - `preguntas_frecuentes.html`: an FAQ built on a Bootstrap accordion
 - `donde_comprar.html`: links to pharmacy retailers in Ecuador
 - `contacto.html`: company contact details and an "about us" section (no form)
-- `politica_internet.html`: internet privacy policy text
+- `politica_internet.html`: internet privacy policy text (no navbar)
 
 ## Stack
 
-HTML5, CSS (one `style/style.css` that imports four component stylesheets, about 290 lines in all), Bootstrap 4.5 with jQuery and Popper loaded from CDNs, and Google Fonts (Oswald, Open Sans). There is no build step, no JavaScript of its own and no backend.
+HTML5, CSS (one `style/style.css` that imports four component stylesheets, about 290 lines in all), Bootstrap 4.5 loaded from a CDN (five pages also load jQuery, Popper and the Bootstrap JS bundle; `donde_comprar.html` and `politica_internet.html` load only the CSS, so the collapsed mobile menu on `donde_comprar.html` does not open), and Google Fonts (Oswald, Open Sans). There is no build step, no JavaScript of its own and no backend.
 
 ## Running it
 
@@ -30,4 +30,4 @@ Note: the repository is large (about 78 MB) because the full-resolution design e
 
 ## Status
 
-Archived early client-style front-end work. Not maintained.
+Archived. Not maintained.
